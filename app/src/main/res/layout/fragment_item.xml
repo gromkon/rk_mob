@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ItemFragment">
+
+    <TextView
+        android:id="@+id/lowView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="181dp"
+        android:layout_marginTop="7dp"
+        android:text="low:"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/lowValueView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="30dp"
+        android:text="lowV"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/highView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lowView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="181dp"
+        android:layout_marginTop="1dp"
+        android:textSize="16sp"
+        android:text="high:" />
+
+    <TextView
+        android:id="@+id/highValueView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/openView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-42dp"
+        android:layout_marginEnd="30dp"
+        android:text="highV"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/openView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/highView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="181dp"
+        android:layout_marginTop="1dp"
+        android:textSize="16sp"
+        android:text="open:" />
+
+    <TextView
+        android:id="@+id/openValueView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/openView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-21dp"
+        android:layout_marginEnd="30dp"
+        android:text="openV"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:id="@+id/closeView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/openView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="181dp"
+        android:layout_marginTop="1dp"
+        android:textSize="16sp"
+        android:text="close:" />
+
+    <TextView
+        android:id="@+id/closeValueView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/openView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="30dp"
+        android:text="closeV"
+        android:textSize="16sp" />
+
+
+
+
+
+
+</RelativeLayout>

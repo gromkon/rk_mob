@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">rk_mob</string>
+    <string name="textview">TextView</string>
+    <string name="Settings">Настройки</string>
+    <string name="save">Save</string>
+    <string name="course">course</string>
+    <string name="valuate">valuate</string>
+    <string name="five">5</string>
+    <string name="date">date</string>
+    <string name="value">value</string>
+    <string name="valueName">value name</string>
+    <string-array name="values_names">
+        <item>RUB</item>
+        <item>USD</item>
+        <item>EUR</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
