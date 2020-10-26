@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#2850E3"
     tools:context=".MainActivity">
 
     <Button
@@ -14,6 +15,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="136dp"
         android:layout_marginTop="50dp"
+        android:background="#D269CFCB"
         android:text="BTC" />
 
     <Button
@@ -24,6 +26,8 @@
         android:layout_alignParentStart="true"
         android:layout_marginStart="136dp"
         android:layout_marginTop="50dp"
+        android:background="#D269CFCB"
+        android:defaultFocusHighlightEnabled="false"
         android:text="ETH" />
 
     <Button
@@ -34,5 +38,6 @@
         android:layout_alignParentStart="true"
         android:layout_marginStart="136dp"
         android:layout_marginTop="50dp"
+        android:background="#D269CFCB"
         android:text="XRP" />
 </RelativeLayout>
